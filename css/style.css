@@ -1,0 +1,75 @@
+.main-body{
+    width: 1000px;
+    margin: auto;
+    background: #4455;
+    padding: 60px 0;
+}
+.main-body .link{
+    
+    font-family: sans-serif;
+    margin: 0;
+    padding: 10px 0;
+}
+.main-body .link a{
+    position: relative;
+    font-size: 30px;
+    color: green;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    display: block;
+    padding: 10px 20px;
+}
+.main-body .link a::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: green;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+.main-body .link a:hover::after{
+    opacity: 1;
+}
+.home a:hover{
+    color: red;
+    background: #fff;
+}
+.about a:hover{
+    color: #a30909;
+    background: #fff;
+}
+.services a:hover{
+    color: blue;
+    background: #fff;
+}
+.contact a:hover{
+    color: rgb(182, 182, 7);
+    background: #fff;
+}
+.details a:hover{
+    color: rgb(95, 84, 84);
+    background: #fff;
+}
+.box-btn{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 15px 25px;
+    margin: 10px 20px;
+    border-radius: 6px;
+    background: #999494;
+    transition: all .3s ease-in-out;
+    
+}
+.box-btn:hover{
+    background: #5f5b5b;
+    
+}
